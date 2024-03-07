@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta name="description" content="Soy una gato mimoson">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#8f7ada">
+    <title>AppDeGatos</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jacquarda+Bastarda+9&family=Madimi+One&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="/img/no gusta.jpg">
+ 
+  </head>
+  <body>
+    <h2>AppDeGatos</h2>
+    <main>
+      <h3>Imágenes de Gatos:</h3>
+      <!-- TODO: Agregar enlace a imágenes de gatos -->
+      <p>
+        Haz hhhclick aquí para ver más
+        <a href="#" target="_blank" rel="noopener noreferrer"
+          >imágenes de gatos.</a
+        >
+      </p>
+
+      <a href="#" target="_blank" rel="noopener noreferrer"
+        ><img src="img/reposando.jpg" width ="300" Un lindo gato recostado sobre
+        su espacio."></a
+      >
+
+      <hr />
+
+      <h3>Listas de Gatos</h3>
+
+     
+        <p class="letra">Cosas que los gatos <em><strong>Aman</strong></em>:</p>
+        <div class="divv">
+          <ul id="foto-odian">
+            <li>Comer</li>
+            <li>Casar</li>
+            <li>Dormir</li>
+          </ul>
+          <img class="gat" src="img/wisk.jpg" width="300"  alt="con su comida" />
+          <img src="img/casar.jpeg" class="gat" alt="casando" width="200">
+          <img class="gat" src="img/dormir.jpg" width="300" alt="Durmiendo" >
+        </div>
+        <p class="letra">Cosas que los gatos <strong>Odian</strong>:</p>
+      
+        <ol class="ol">
+          <li>Tratamientos antipulgas</li>
+          <li>Truenos</li>
+          <li>Otros gatos</li>
+        </ol>
+      
+      <div class="nogust">
+        <img  src="img/no gusta.jpg" width="300" alt="Gatos" />
+      </div>
+      <form action="/enviar-respuesta">
+        <!-- Botones de Radio -->
+        <label for="interior">
+          <input
+            id="interior"
+            type="radio"
+            value="interior"
+            name="exterior"
+            checked
+          />Interior
+        </label>
+        <br />
+        <label for="exterior">
+          <input
+            id="exterior"
+            type="radio"
+            value="exterior"
+            name="exterior"
+          />Exterior
+        </label>
+        <br />
+
+        <!-- Casillas de Verificación -->
+        <label for="carinoso">
+          <input
+            id="carinoso"
+            type="checkbox"
+            value="carinoso"
+            name="personalidad"
+            checked
+          />Cariñoso
+        </label>
+        <br />
+        <label for="perezoso">
+          <input
+            id="perezoso"
+            type="checkbox"
+            value="perezoso"
+            name="personalidad"
+          />Perezoso
+        </label>
+        <br />
+        <label for="energico">
+          <input
+            id="energico"
+            type="checkbox"
+            value="energico"
+            name="personalidad"
+          />Enérgico
+        </label>
+        <br />
+
+        <!-- Texto y Botón Enviar -->
+        <input
+          type="text"
+          placeholder="URL de la foto de tu gato"
+          required
+        /><br />
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+    <input type="text" value="Texto de solo lectura" readonly />
+    <footer>
+      <p>
+        <small
+          >Sin Derechos de Autor -
+          <a href="https://www.freecodecamp.org/espanol/"
+            >freeCodeCamp.org</a
+          ></small
+        >
+      </p>
+    </footer>
+  </body>
+</html>

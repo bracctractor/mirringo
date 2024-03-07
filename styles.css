@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(7, 238, 45);
+}
+
+h2{
+    font-family: "Dancing Script", cursive;
+    color: blue;
+    font-size: 50px;
+}
+
+h3{
+    font-size: 25px;
+    color: rgb(71, 230, 8);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifS;
+}
+
+.letra{
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    color: rgb(44, 8, 2);
+    font-weight: bold;
+}
+
+.gat{
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    border-width: 20px;
+    border-color: rgb(235, 130, 11);
+    border-style: solid ;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-left: 20cm;
+    border-right: 20cm;
+    border-top-color: blueviolet;
+}
+
+#foto-odian{
+    font-size: 25px;
+    color: rgb(25, 226, 35);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divv{
+    background-color: grey;
+}
+div{
+    background-color: blueviolet;
+}
+.nogust{
+    margin: 15px;
+    max-width: 30%;
+    border-width: 10px;
+    border-color: black;
+    background-color: rgb(5, 5, 5);
+    border-style: solid;
+}
+
+.ol{
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
+    font-weight: bold;
+}
